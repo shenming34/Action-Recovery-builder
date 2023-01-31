@@ -15,23 +15,23 @@ on:
       LIBRARY_BRANCH:
         description: 'LIBRARY_BRANCH'
         required: true
-        default: 'twrp-11'
+        default: 'twrp-12.1'
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/MlgmXyysd/android_device_duoqin_k61v1.git'
+        default: 'https://github.com/mt6893/android_device_xiaomi_ares'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
-        default: 'master'
+        default: 'mainr'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/duoqin/k61v1'
+        default: 'device/xiaomi/ares'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'k61v1'
+        default: 'ares'
 
 jobs:
   build:
